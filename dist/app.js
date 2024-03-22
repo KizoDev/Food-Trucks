@@ -52,3 +52,4 @@ app.get('/food-trucks', (req, res) => __awaiter(void 0, void 0, void 0, function
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
 });
+exports.default = app;

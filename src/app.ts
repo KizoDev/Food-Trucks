@@ -52,6 +52,6 @@ app.get('/food-trucks', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
 });
-   
-  
+
+export default app;
 
